@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e401e330-e8cb-4c49-831e-ae1c3354b652" name="Default Changelist" comment="inserido redirect para clientes caso acessem o endpoint vazio">
+    <list default="true" id="e401e330-e8cb-4c49-831e-ae1c3354b652" name="Default Changelist" comment="finalizado rota para pegar cliente por id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/app/Http/Controllers/ClientesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/Http/Controllers/ClientesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/web.php" afterDir="false" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598817830739</updated>
-      <workItem from="1598817832044" duration="3359000" />
+      <workItem from="1598817832044" duration="5355000" />
     </task>
     <task id="LOCAL-00001" summary="iniciado endpoints">
       <created>1598819834656</created>
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598820677329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finalizado rota para pegar cliente por id">
+      <created>1598821226143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598821226143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,7 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="iniciado endpoints" />
     <MESSAGE value="inserido redirect para clientes caso acessem o endpoint vazio" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserido redirect para clientes caso acessem o endpoint vazio" />
+    <MESSAGE value="finalizado rota para pegar cliente por id" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado rota para pegar cliente por id" />
   </component>
   <component name="WindowStateProjectService">
     <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598820025609">
@@ -97,10 +105,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="383" y="246" key="NewPhpClassDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1598820037109" />
-    <state x="232" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598820678619">
+    <state x="232" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598821227261">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="232" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1598820678619" />
+    <state x="232" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1598821227261" />
     <state x="457" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598819820508">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

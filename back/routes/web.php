@@ -12,7 +12,7 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
-$router->get('/' , function () use ($router) {
+$router->get('/', function () use ($router) {
     return redirect('api/v1/clientes');
 });
 
@@ -22,10 +22,15 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
     //Clientes
     $router->group(['prefix' => 'clientes'], function () use ($router) {
         $router->get('/', [
-            'as' => 'clientes' , 'uses' => 'ClientesController@index'
+            'as' => 'clientes', 'uses' => 'ClientesController@index'
         ]);
+
         $router->get('/{id}', [
-            'as' => 'clientes' , 'uses' => 'ClientesController@clienteId'
+            'as' => 'clientes', 'uses' => 'ClientesController@get'
+        ]);
+
+        $router->post('created', [
+            'as' => 'clientes', 'uses' => 'ClientesController@insert'
         ]);
     });
 
