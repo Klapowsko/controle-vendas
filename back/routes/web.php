@@ -42,5 +42,11 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
         ]);
     });
 
+    //Compra
+    $router->group(['prefix' => 'compras'], function () use ($router) {
+        $router->get('/', [
+            'as' => 'compra', 'uses' => 'ComprasController@index'
+        ]);
+    });
 
 });
