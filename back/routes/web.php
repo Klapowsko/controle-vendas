@@ -18,7 +18,16 @@ $router->get('/' , function () use ($router) {
 
 
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
-    $router->get('clientes', [
-        'as' => 'clientes' , 'uses' => 'ClientesController@index'
-    ]);
+
+    //Clientes
+    $router->group(['prefix' => 'clientes'], function () use ($router) {
+        $router->get('/', [
+            'as' => 'clientes' , 'uses' => 'ClientesController@index'
+        ]);
+        $router->get('/{id}', [
+            'as' => 'clientes' , 'uses' => 'ClientesController@clienteId'
+        ]);
+    });
+
+
 });
