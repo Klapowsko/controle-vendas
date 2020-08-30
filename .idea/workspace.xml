@@ -10,10 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e401e330-e8cb-4c49-831e-ae1c3354b652" name="Default Changelist" comment="">
+    <list default="true" id="e401e330-e8cb-4c49-831e-ae1c3354b652" name="Default Changelist" comment="iniciado endpoints">
+      <change afterPath="$PROJECT_DIR$/back/app/Http/Controllers/ClientesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/Http/Controllers/ExampleController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/back/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +51,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598817830739</updated>
-      <workItem from="1598817832044" duration="1913000" />
+      <workItem from="1598817832044" duration="2801000" />
     </task>
+    <task id="LOCAL-00001" summary="iniciado endpoints">
+      <created>1598819834656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598819834656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,15 +77,26 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/back/routes/web.php</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iniciado endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciado endpoints" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598820025609">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1598820025609" />
+    <state x="383" y="246" key="NewPhpClassDialog" timestamp="1598820037109">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="383" y="246" key="NewPhpClassDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1598820037109" />
+    <state x="232" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598819839554">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="232" y="256" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1598819839554" />
+    <state x="457" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598819820508">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="457" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1598819820508" />
   </component>
 </project>

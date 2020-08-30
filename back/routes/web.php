@@ -12,9 +12,13 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+$router->get('/' , function () use ($router) {
+    return redirect('api/v1/clientes');
+});
+
 
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
-    $router->get('clientes', function () {
-        echo 'users';
-    });
+    $router->get('clientes', [
+        'as' => 'clientes' , 'uses' => 'ClientesController@index'
+    ]);
 });
