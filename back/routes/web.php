@@ -47,6 +47,10 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
         $router->get('/', [
             'as' => 'compra', 'uses' => 'ComprasController@index'
         ]);
+
+        $router->post('cadastrar', [
+            'as' => 'compra', 'uses' => 'ComprasController@insert'
+        ]);
     });
 
 });
