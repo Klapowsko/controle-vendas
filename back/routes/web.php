@@ -32,6 +32,10 @@ $router->group(['prefix' => 'api/v1'], function () use ($router) {
         $router->post('created', [
             'as' => 'clientes', 'uses' => 'ClientesController@insert'
         ]);
+
+        $router->delete('delete/{id}', [
+            'as' => 'clientes', 'uses' => 'ClientesController@delete'
+        ]);
     });
 
 

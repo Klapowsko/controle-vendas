@@ -7,11 +7,11 @@ class ClientesController
 {
 
     public function index() {
-        return app('db')->select("SELECT * FROM clientes");
+        return json_encode(app('db')->select("SELECT * FROM clientes"));
     }
 
     public function get($id) {
-        return app('db')->select("SELECT * FROM clientes where id = $id");
+        return json_encode(app('db')->select("SELECT * FROM clientes where id = ?",[$id]));
     }
 
     public function insert(Request $request) {
@@ -27,5 +27,10 @@ class ClientesController
             return json_encode(['status' => 'Cliente já cadastrado']);
         }
         return json_encode(['status' => 'Erro ao cadastrar']);
+    }
+
+
+    public function delete($id) {
+        return app('db')->select("UPDATE clientes SET ativo = 0 where id = ?",[$id]);
     }
 }
